@@ -23,7 +23,7 @@ function Timer({ setstop, questionnum, setstoptimer }) {
   }, [settimer, timer, setstop, setstoptimer, wronganswer]);
 
   useEffect(() => {
-    settimer(30);
+    settimer(30000);
   }, [questionnum]);
 
   return <div>{timer}</div>;

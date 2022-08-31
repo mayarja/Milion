@@ -265,6 +265,10 @@ padding: 7px;
         color: #fff;
         font-size: 28px;
         cursor: pointer;
+        z-index: 1000;
+    }
+    .box-money .money-q{
+        font-size: 20px;
     }
     .icon-show{
         display: block;
