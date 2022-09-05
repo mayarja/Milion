@@ -130,12 +130,14 @@
         background: crimson;
     }
 }
-.trivial-box ul .answer:hover,
-.trivial-box ul .answer.active{
-    background: mediumblue !important;
+
+
+@media screen and (min-width : 550px) {
+    .trivial-box ul .answer:hover,
+    .trivial-box ul .answer.active{
+        background: mediumblue !important;
+    }
 }
-
-
 
 
 
